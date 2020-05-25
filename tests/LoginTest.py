@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-driver = webdriver.Chrome() #executable_path='C:/webdrivers/chromedriver'
+driver = webdriver.Chrome()
 
 driver.get('http://the-internet.herokuapp.com/login')
 
